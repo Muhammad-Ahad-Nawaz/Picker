@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class diaryViewController;
+@class MyDatePickerViewController;
 
 @interface diaryAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) diaryViewController *viewController;
+@property (strong, nonatomic) MyDatePickerViewController *viewController;
+
+@property (strong, nonatomic) UITabBarController *myTabBar;
+
 
 @end

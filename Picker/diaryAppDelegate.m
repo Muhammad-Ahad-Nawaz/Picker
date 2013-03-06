@@ -8,7 +8,7 @@
 
 #import "diaryAppDelegate.h"
 
-#import "diaryViewController.h"
+#import "MyDatePickerViewController.h"
 
 @implementation diaryAppDelegate
 
@@ -16,8 +16,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[diaryViewController alloc] initWithNibName:@"diaryViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UIViewController *cont1 = [[MyDatePickerViewController alloc] initWithNibName:@"MyDatePickerViewController" bundle:nil];
+    
+    UINavigationController *nav1=[[UINavigationController alloc]initWithRootViewController:cont1];
+    
+    self.myTabBar =[[UITabBarController alloc]init];
+    self.myTabBar.viewControllers=@[nav1];
+    
+    self.window.rootViewController = self.myTabBar;
     [self.window makeKeyAndVisible];
     return YES;
 }

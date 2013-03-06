@@ -16,8 +16,8 @@
 		2DCF51AB16E6FC2C00108FCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF51AA16E6FC2C00108FCD /* Default.png */; };
 		2DCF51AD16E6FC2C00108FCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF51AC16E6FC2C00108FCD /* Default@2x.png */; };
 		2DCF51AF16E6FC2C00108FCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF51AE16E6FC2C00108FCD /* Default-568h@2x.png */; };
-		2DCF51B216E6FC2C00108FCD /* diaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF51B116E6FC2C00108FCD /* diaryViewController.m */; };
-		2DCF51B516E6FC2C00108FCD /* diaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF51B316E6FC2C00108FCD /* diaryViewController.xib */; };
+		2DCF51B216E6FC2C00108FCD /* MyDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF51B116E6FC2C00108FCD /* MyDatePickerViewController.m */; };
+		2DCF51B516E6FC2C00108FCD /* MyDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF51B316E6FC2C00108FCD /* MyDatePickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		2DCF51AA16E6FC2C00108FCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2DCF51AC16E6FC2C00108FCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2DCF51AE16E6FC2C00108FCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2DCF51B016E6FC2C00108FCD /* diaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diaryViewController.h; sourceTree = "<group>"; };
-		2DCF51B116E6FC2C00108FCD /* diaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diaryViewController.m; sourceTree = "<group>"; };
-		2DCF51B416E6FC2C00108FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/diaryViewController.xib; sourceTree = "<group>"; };
+		2DCF51B016E6FC2C00108FCD /* MyDatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDatePickerViewController.h; sourceTree = "<group>"; };
+		2DCF51B116E6FC2C00108FCD /* MyDatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDatePickerViewController.m; sourceTree = "<group>"; };
+		2DCF51B416E6FC2C00108FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDatePickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				2DCF51A716E6FC2C00108FCD /* diaryAppDelegate.h */,
 				2DCF51A816E6FC2C00108FCD /* diaryAppDelegate.m */,
-				2DCF51B016E6FC2C00108FCD /* diaryViewController.h */,
-				2DCF51B116E6FC2C00108FCD /* diaryViewController.m */,
-				2DCF51B316E6FC2C00108FCD /* diaryViewController.xib */,
+				2DCF51B016E6FC2C00108FCD /* MyDatePickerViewController.h */,
+				2DCF51B116E6FC2C00108FCD /* MyDatePickerViewController.m */,
+				2DCF51B316E6FC2C00108FCD /* MyDatePickerViewController.xib */,
 				2DCF519F16E6FC2C00108FCD /* Supporting Files */,
 			);
 			path = Picker;
@@ -163,7 +163,7 @@
 				2DCF51AB16E6FC2C00108FCD /* Default.png in Resources */,
 				2DCF51AD16E6FC2C00108FCD /* Default@2x.png in Resources */,
 				2DCF51AF16E6FC2C00108FCD /* Default-568h@2x.png in Resources */,
-				2DCF51B516E6FC2C00108FCD /* diaryViewController.xib in Resources */,
+				2DCF51B516E6FC2C00108FCD /* MyDatePickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 			files = (
 				2DCF51A516E6FC2C00108FCD /* main.m in Sources */,
 				2DCF51A916E6FC2C00108FCD /* diaryAppDelegate.m in Sources */,
-				2DCF51B216E6FC2C00108FCD /* diaryViewController.m in Sources */,
+				2DCF51B216E6FC2C00108FCD /* MyDatePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,12 +191,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2DCF51B316E6FC2C00108FCD /* diaryViewController.xib */ = {
+		2DCF51B316E6FC2C00108FCD /* MyDatePickerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2DCF51B416E6FC2C00108FCD /* en */,
 			);
-			name = diaryViewController.xib;
+			name = MyDatePickerViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
